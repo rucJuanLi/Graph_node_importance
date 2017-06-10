@@ -1,6 +1,4 @@
 #coding:utf-8
-import networkx as nx
-import json
 def construct_graph_with_combined_data_self(node_file,edge_file):
         g = {}
         with open(node_file,'r') as fr:
